@@ -7,12 +7,12 @@
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-M4ZPWVW');</script>
+})(window,document,'script','dataLayer','GTM-PQ6R2W5');</script>
 <!-- End Google Tag Manager -->
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css"
         integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK" crossorigin="anonymous">
@@ -61,15 +61,21 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 ]
             });
         });
-    </script>
+  
+window.dataLayer = window.dataLayer || [];
+window.dataLayer.push({
+	'event' : 'sign_up',
+	'SignMethod' : 'selfdatabase' // this should be replaced with an actual login method
+});
+</script>
+    
 
     <title>Home Page</title>
-   
 </head>
-    
+
 <body>
-    <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M4ZPWVW"
+   <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PQ6R2W5"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
     <!-- navbar -->
@@ -82,9 +88,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
-        
-    
- <a id="btn1" href="form.html" class="btn btn-success btn-sm" data-toggle="modal" data-target="#registerOnline">Register Online</a>
                     
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="index.html" id="index">Home</a>
@@ -97,7 +100,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
                     
                 </ul>
-               
+                <div class="d-flex">
+                    <a id="btn1" href="form.html" class="btn btn-success btn-sm" data-toggle="modal" data-target="#registerOnline">Register Online</a>
+                </div>
+		    <div class="d-flex">
+                    <a id="btn1" href="form.html" class="btn btn-success btn-sm" data-toggle="modal" data-target="#registerOnline">Google</a>
+                </div>
             </div>
         </div>
     </nav>
@@ -145,8 +153,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>
     </header>
     <!-- Home Banner -->
-                        <a id="btn5" href="https://edition.cnn.com" class="btn btn-success btn-sm" data-toggle="modal" data-target="#news">News</a>
-
 
     <!-- Features List Holder -->
     <section class="features">
@@ -260,7 +266,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error beatae,
                                 repellat, labore, velit earum itaque excepturi amet nesciunt ex voluptate laboriosam nam
                                 officiis corporis iste ipsa maxime magnam cumque sint.</p>
-                            <a href="#" class="btn btn-sm btn-primary">View Course</a>
+                            <a href="course1.html" class="btn btn-sm btn-primary">View Course</a>
                         </div>
                     </div>
                 </div>
@@ -272,7 +278,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error beatae,
                                 repellat, labore, velit earum itaque excepturi amet nesciunt ex voluptate laboriosam nam
                                 officiis corporis iste ipsa maxime magnam cumque sint.</p>
-                            <a href="#" class="btn btn-sm btn-primary">View Course</a>
+                            <a href="course1.html" class="btn btn-sm btn-primary">View Course</a>
                         </div>
                     </div>
                 </div>
@@ -284,7 +290,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error beatae,
                                 repellat, labore, velit earum itaque excepturi amet nesciunt ex voluptate laboriosam nam
                                 officiis corporis iste ipsa maxime magnam cumque sint.</p>
-                            <a href="#" class="btn btn-sm btn-primary">View Course</a>
+                            <a href="course1" class="btn btn-sm btn-primary">View Course</a>
                         </div>
                     </div>
                 </div>
@@ -306,7 +312,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             repellendus labore. Deserunt molestiae corporis incidunt nulla, reiciendis adipisci
                             harum est dolor non quaerat nihil dignissimos quae molestias!
                         </p>
-                        <a href="#" class="btn btn-warning btn-sm">View all Courses</a>
+                        <a href="course.html" class="btn btn-warning btn-sm">View all Courses</a>
                     </div>
                 </div>
             </div>
