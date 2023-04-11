@@ -222,6 +222,37 @@ dataLayer.push({
     }]
   }
 });
+	    
+	    
+	    
+ dataLayer.push({ ecommerce: null });  // Clear the previous ecommerce object.
+dataLayer.push({
+  event: "purchase",
+  ecommerce: {
+      transaction_id: "App54"
+      affiliation: "Google Merchandise Store",
+      value: 325,
+      tax: 1000,
+      shipping: ["AN","TN"],
+      currency: "Indian Ruppee",
+    items: [
+     {
+      item_id: "SKU_12346",
+      item_name: "Google Grey Women's Tee",
+      coupon: "SUMMER_FUN",
+      discount: 3.33,
+      index: 1,
+       
+    },
+    {
+      item_brand: "Google",
+      item_category: "Apparel",
+      item_list_id: "related_products",
+      item_list_name: "Related Products",
+      item_variant: "gray",
+    }]
+  }
+});
 	</script>
 
     <title>Contact Page</title>
